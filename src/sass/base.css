@@ -1,0 +1,73 @@
+/*------- MIXINS--------*/
+/*------- EXTEND CLASSES--------*/
+.text-center {
+  text-align: center;
+}
+
+.cursor-link {
+  cursor: pointer;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+html {
+  font-size: 20px;
+  background: #FFFFFF;
+  font-family: 'Dosis','Arial', 'sans-serif';
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+div:focus, a:focus, img:focus, li:focus, form:focus, label:focus, button:focus, input[type=submit]:focus {
+  border: 1px dashed #E67E22 !important;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  SECTIONS  ============================================================================= */
+.section {
+  clear: both;
+}
+
+/*  GROUPING  ============================================================================= */
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+}
+
+.row:after {
+  clear: both;
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+.col {
+  display: block;
+  float: left;
+}
+
+.col:first-child {
+  margin-left: 0;
+}
+
+/* all browsers except IE6 and lower */
+/*# sourceMappingURL=base.css.map */

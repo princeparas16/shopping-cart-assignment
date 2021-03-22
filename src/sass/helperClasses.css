@@ -1,0 +1,18 @@
+/*------- MIXINS--------*/
+/*------- EXTEND CLASSES--------*/
+.text-center {
+  text-align: center;
+}
+
+.cursor-link {
+  cursor: pointer;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+/*# sourceMappingURL=helperClasses.css.map */
