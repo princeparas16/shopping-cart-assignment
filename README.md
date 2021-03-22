@@ -9,8 +9,7 @@ Clone this repo and run following command for starting the mock server:
 ```
 npm install
 npm run start
-
-then Do Node index.js
+Node index.js
 # or
 yarn install
 yarn start
